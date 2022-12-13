@@ -4,7 +4,7 @@ Hello! This repository contains various type of installer, you can install almos
 
 
 Small project open to those who would like to help automate the installation processes of programming languages ​​/ programs on discord, so that those
-who do not have an exact knowledge of the terminal can find this repository which will be their salvation, for many things, while those a little more ## experienced can add scripts for automating the installation processes in order to help less experienced. 
+who do not have an exact knowledge of the terminal can find this repository which will be their salvation, for many things, while those a little more 
 
 ________________________________________________________________________
 
