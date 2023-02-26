@@ -7,9 +7,11 @@ then
   if [ $usrinput == "Y" ];
   then
     systemctl start nessusd.service
+    firefox "https://localhost:8834/#/"
   elif [ $usrinput == "y" ];
   then
     systemctl start nessusd.service
+    firefox "https://localhost:8834/#/"
   else
     echo "Okay, happy hacking sir!"
   fi
