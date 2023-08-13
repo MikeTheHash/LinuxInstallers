@@ -11,8 +11,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
 sudo apt update -y
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
-# Add user htb-student to the Docker group
-sudo usermod -aG docker htb-student
+sudo usermod -aG dockeruser
 echo '[!] You need to log out and log back in for the group changes to take effect.'
 
 # Test Docker installation
